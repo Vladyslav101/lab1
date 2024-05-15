@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Горизонтальні рядки з біжучим текстом</title>
+</head>		
+<body>
+   <div style="height: 50px; background-color: #f00;">
+      <marquee behavior="alternate" direction="right" scrollamount="5">
+         Текст у рядку коливається з боку в бік.
+      </marquee>
+   </div>
+   <div style="height: 50px; background-color: #0f0;">
+      <marquee behavior="scroll" direction="right" scrollamount="5" loop="1">
+         Текст пробігає справа наліво та з'являється знову.
+      </marquee>
+   </div>
+   <div style="height: 50px; background-color: #00f;">
+      <marquee behavior="scroll" direction="left" scrollamount="5">
+         Текст у рядку пробігає зліва направо та зупиняється.
+      </marquee>
+   </div>
+   <div style="height: 50px; background-color: #ff0;">
+      <marquee behavior="alternate" direction="right" scrollamount="3">
+         Створено два рядки, текст в яких переміщується з різними режимами запізнення.
+      </marquee>
+   </div>
+   <div style="height: 50px; background-color: #0ff;">
+      <marquee behavior="alternate" direction="left" scrollamount="8">
+         Створено два рядки, текст в яких переміщується з різними режимами запізнення.
+      </marquee>
+   </div>
+</body>
+</html>
